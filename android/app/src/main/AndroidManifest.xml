@@ -1,6 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Caso tenha uma chave key
+    <meta-data
+      android:name="com.google.android.geo.APU_KEY"
+      android:value=""/> -->
 
     <application
       android:name=".MainApplication"
